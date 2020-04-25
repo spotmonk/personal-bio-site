@@ -1,12 +1,76 @@
-body{
-  background-color: rebeccapurple;
+body {
+  background-color: #a2b9bc;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+nav {
+  margin: 50px;
+  padding: 0;
+  text-align: center;
+}
+
+
 
 #navlinks {
   list-style-type: none;
-
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 #navlinks li {
-  float: left;
+  background-color: b2ad7f;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+#navlinks a{
+  display: block;
+  text-align: center;
+  
+}
+
+#technologiesPage{
+  margin-left: 60px;
+}
+
+.fullPage{
+  margin: 20px;
+}
+
+#projectsPage{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 35%;
+  justify-content: space-around; 
+}
+.projectcard{
+  min-width: 100px;
+  max-width: 200px;
+  max-height: 300px;
+  margin: 25px;
+  padding: 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.page-footer{
+  background-color: b2ad7f;
+}
+
+#contactsList{
+  list-style-type: none;
+  margin: 0;
+  padding: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+#contactsList a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
