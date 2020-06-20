@@ -1,4 +1,4 @@
-console.log("personal-bio-site")
+import '../styles/main.scss'
 
 const projects = [
   {
