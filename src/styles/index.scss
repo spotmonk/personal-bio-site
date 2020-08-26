@@ -4,5 +4,11 @@
 @import 'variables';
 
 body {
-  background-color: $favColor;
+  background-color: whitesmoke;
+}
+
+#header, 
+#left-section, 
+#right-section {
+  background-color: rebeccapurple;
 }
