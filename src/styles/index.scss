@@ -4,5 +4,27 @@
 @import 'variables';
 
 body {
-  background-color: $favColor;
+  background-color: lightgrey;
+}
+
+#header, 
+#left-section, 
+#right-section {
+  background-color: white;
+  border-radius: 25px;
+}
+
+#header,
+#sectionContainer {
+  width: auto;
+}
+
+#left-section,
+#right-section {
+  height: 500px;
+  min-width: 250px;
+}
+
+#header {
+  height: 250px;
 }
