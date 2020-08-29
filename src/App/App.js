@@ -12,7 +12,7 @@ const App = () => {
     <div className="App">
       <div id="header" className="m-4 mb-2">
       <div className="float-left">,Carousel </div>
-      <div className="float-right"><About /></div>
+      <div className="float-right w-50 m-2"><About /></div>
       </div>
       <div id="sectionContainer" className="container d-flex flex-nowrap row col-10 p-0 offset-1 justify-content center">
      <div id="left-section" className="col-5 mr-5"><ProjectList /><ProjectTechs /></div><div id="left-triangle"></div>

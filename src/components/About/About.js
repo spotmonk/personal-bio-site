@@ -1,9 +1,10 @@
 import React from 'react';
+import './About.scss';
 
 const About = (props) => {
   return (
     <div>
-    <h1>This is an About Section</h1>
+    <img id="headshot" src='https://i.ibb.co/wKFkf8q/758596895.png' alt="Geno McNew" />
     </div>
   );
 };
