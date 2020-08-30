@@ -3,7 +3,7 @@
     "project1": {
       "name": "Tamagotchi",
       "icon": "https://image.flaticon.com/icons/svg/447/447589.svg",
-      "description": "An app that's a tamogotchi",
+      "description": "An app that's a tamagotchi",
       "imgUrl": "https://i.ibb.co/rtpj1M9/tamagotchi.gif",
       "githubUrl": "https://github.com/spotmonk/tamagotchi",
       "deployedSite": "TBD",
