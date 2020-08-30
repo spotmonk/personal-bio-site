@@ -14,17 +14,25 @@ body {
   border-radius: 25px;
 }
 
-#header,
 #sectionContainer {
   width: auto;
 }
 
 #left-section,
-#right-section {
+#right-section
+#projectContainer {
   height: 500px;
   min-width: 250px;
+  max-width: 350px;
+}
+
+#projectTech
+#ProjectList {
+  min-width: 250px;
+  max-width: 350px;
 }
 
 #header {
   height: 250px;
+  max-width: 1250px;
 }

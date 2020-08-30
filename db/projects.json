@@ -1,0 +1,31 @@
+{
+  "Projects":{
+    "project1": {
+      "name": "Tamagotchi",
+      "icon": "https://image.flaticon.com/icons/svg/447/447589.svg",
+      "description": "An app that's a tamagotchi",
+      "imgUrl": "https://i.ibb.co/rtpj1M9/tamagotchi.gif",
+      "githubUrl": "https://github.com/spotmonk/tamagotchi",
+      "deployedSite": "TBD",
+      "techStack": "HTML, Javascript, SASS, Bootstrap"
+    },
+    "project2": {
+      "name": "Bear Watcher",
+      "icon": "https://image.flaticon.com/icons/svg/2834/2834542.svg",
+      "description": "An app that assigns prizes to the fattest bear",
+      "imgUrl": "https://i.ibb.co/Qf2CpzP/Bear-Watcher-Screen-Shot.gif",
+      "githubUrl": "https://github.com/spotmonk/bear-watcher",
+      "deployedSite": "https://gm-bear-watcher.web.app/",
+      "techStack": "HTML, Javascript, CSS, Bootstrap"
+    },
+    "project3": {
+      "name": "Pinterest",
+      "icon": "https://image.flaticon.com/icons/svg/2111/2111601.svg",
+      "description": "A pinterest clone",
+      "imgUrl": "https://i.ibb.co/wrSRZtt/pinterest.gif",
+      "githubUrl": "https://github.com/spotmonk/pinterest",
+      "deployedSite": "https://pinterest-gm.web.app/",
+      "techStack": "HTML, Javascript, CSS, Bootstrap"
+    }
+  }
+}
