@@ -7,6 +7,7 @@ import Footer from '../components/Footer/Footer';
 import ProjectList from '../components/ProjectList/ProjectList';
 import ProjectTechs from '../components/ProjectTechs/ProjectTechs';
 import projectData from '../helpers/data/projectsData';
+import Carousel from '../components/Carousel/Carousel';
 
 const App = () => {
   const [projects, setProjects] = useState([]);
@@ -28,8 +29,8 @@ const App = () => {
   return (
     <div className="App">
       <div id="header" className="m-4 mb-2 d-flex">
-      <div className="float-left">,Carousel </div>
-      <div className="float-right"><About /></div>
+      <div className="float-left"><Carousel projects={projects}/></div>
+      <div id="#about" className="float-right w-100 m-2"><About /></div>
       </div>
       <div id="sectionContainer" className="container d-flex flex-nowrap row col-10 p-0 offset-1 justify-content center">
      <div id="left-section" className="col-5 mr-5"><ProjectList projects={projects} setCurrentProject={setCurrentProject} /><hr /><ProjectTechs project={currentProject} /></div>
