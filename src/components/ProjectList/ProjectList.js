@@ -7,7 +7,7 @@ const ProjectList = (props) => {
       <li>Tamagotchi</li>
       <li>Bear Watcher</li>
       <li>La Baguette</li>
-      <li>Sports Roster</li> 
+      <li>Sports Roster</li>
     </ul>
     </div>
   );
