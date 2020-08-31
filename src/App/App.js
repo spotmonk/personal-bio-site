@@ -33,7 +33,7 @@ const App = () => {
       <div id="#about" className="float-right w-100 m-2"><About /></div>
       </div>
       <div id="sectionContainer" className="container d-flex flex-nowrap row col-10 p-0 offset-1 justify-content center">
-     <div id="left-section" className="col-5 mr-5"><ProjectList projects={projects} setCurrentProject={setCurrentProject} /><hr /><ProjectTechs project={currentProject} /></div>
+     <div id="left-section" className="col-5 mr-5"><h2>Projects:</h2><hr/><ProjectList projects={projects} setCurrentProject={setCurrentProject} /><hr /><ProjectTechs project={currentProject} /></div>
       <div id="right-section" className="col-5 ml-5" ><ProjectContainer project={currentProject}/></div>
       </div>
       <div><Footer /></div>
