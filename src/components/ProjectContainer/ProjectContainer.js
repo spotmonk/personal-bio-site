@@ -8,7 +8,7 @@ const ProjectContainer = (props) => {
       <hr />
       <div><img className="projectGif" src={props.project.imgUrl} alt={`${props.project.name} Gif`} /></div>
       <hr />
-      <div><a href={props.project.deployedSite}> <i className="fas fa-external-link-alt fa-2x"></i></a> <a href={props.project.githubUrl}><i className="fab fa-github-alt fa-3x"></i></a></div>
+      <div><a href={props.project.githubUrl}><i class="fab fa-github fa-2x fa-fw"></i><a href={props.project.deployedSite}> <i className="fas fa-external-link-alt fa-2x fa-fw"></i></a></a></div>
     </div>
   );
 };

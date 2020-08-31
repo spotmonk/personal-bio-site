@@ -43,16 +43,7 @@ body {
   height: 250px;
 }
 
-.carousel-inner > .item > img {
-  width:500px;
-  height:250px;
-}
-
-.carousel-caption {
-  color: lightgrey;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  position: relative;
-  left: 0;
-  top: 0;
+.fas,
+.fab {
+  color: black;
 }
