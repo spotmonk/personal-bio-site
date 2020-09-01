@@ -3,17 +3,19 @@
     "project1": {
       "name": "Tamagotchi",
       "icon": "https://image.flaticon.com/icons/svg/447/447589.svg",
-      "description": "An app that's a tamagotchi",
-      "imgUrl": "https://i.ibb.co/rtpj1M9/tamagotchi.gif",
+      "description": "A tamagotchi app where the stats change and affect other stats randomly.",
+      "gifUrl": "https://i.ibb.co/rtpj1M9/tamagotchi.gif",
+      "imgUrl": "https://i.ibb.co/qJ14Y3g/tamagotchi.png",
       "githubUrl": "https://github.com/spotmonk/tamagotchi",
-      "deployedSite": "TBD",
+      "deployedSite": "https://gm-tamagotchi.web.app/",
       "techStack": "HTML, Javascript, SASS, Bootstrap"
     },
     "project2": {
       "name": "Bear Watcher",
       "icon": "https://image.flaticon.com/icons/svg/2834/2834542.svg",
-      "description": "An app that assigns prizes to the fattest bear",
-      "imgUrl": "https://i.ibb.co/Qf2CpzP/Bear-Watcher-Screen-Shot.gif",
+      "description": "Add bears to the app and they catch fish and gain weight randomly based on the size of fish.",
+      "gifUrl": "https://i.ibb.co/Qf2CpzP/Bear-Watcher-Screen-Shot.gif",
+      "imgUrl": "https://i.ibb.co/Z6f6bLX/bearwatcher.png",
       "githubUrl": "https://github.com/spotmonk/bear-watcher",
       "deployedSite": "https://gm-bear-watcher.web.app/",
       "techStack": "HTML, Javascript, CSS, Bootstrap"
@@ -21,8 +23,9 @@
     "project3": {
       "name": "Pinterest",
       "icon": "https://image.flaticon.com/icons/svg/2111/2111601.svg",
-      "description": "A pinterest clone",
-      "imgUrl": "https://i.ibb.co/wrSRZtt/pinterest.gif",
+      "description": "A pinterest clone with personalized boards and pins",
+      "gifUrl": "https://i.ibb.co/wrSRZtt/pinterest.gif",
+      "imgUrl": "https://i.ibb.co/wdJrvZL/pinterest.png",
       "githubUrl": "https://github.com/spotmonk/pinterest",
       "deployedSite": "https://pinterest-gm.web.app/",
       "techStack": "HTML, Javascript, CSS, Bootstrap"
