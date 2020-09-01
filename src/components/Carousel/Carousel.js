@@ -9,7 +9,7 @@ const Carousel = (props) => {
     const item = {
       src: project.imgUrl,
       altText: project.name,
-      caption: project.name,
+      caption: '',
       header: project.name,
       key,
     };
